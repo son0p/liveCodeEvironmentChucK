@@ -11,12 +11,12 @@ Un ejemplo (debes tener [ChucK](http://chuck.cs.princeton.edu/release/) instalad
 
 ``` $ chuck init.ck ```
 
-En un editor de texto puede editar y alterar valores en los archivos bass.ck, drums.ck mel.ck
+En un editor de texto puede editar y alterar valores en el archivo playground.ck
 
-Ejemplo: Edita el archivo "mel.ck", puedes agregar intervalos al array de la línea 26.
+Ejemplo: Edita el array de la linea 17
 
-```[-5, 0, 0, 0, 0, 0, 3, 3, 7, 7, 7, 7, 7, 12 ] @=> int optMel[]; ```
+["kk", "sn"] @=> string p1[]; 
 
-Agregue por ejemplo nuevos intervalos como 24, 32.
+por 
 
-```[-5, 0, 0, 0, 0, 0, 3, 3, 7, 7, 7, 7, 7, 12, 24, 32 ] @=> int optMel[];```
+["kk", "sn", "kk"] @=> string p1[]; 
