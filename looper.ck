@@ -1,7 +1,7 @@
 // instancio la  clase
 BPM myBPM;
 // le mando el tempo a la clase
-myBPM.tempo( 96.0 );
+myBPM.tempo( 120.0 );
 // traigo el pulso de la clase y lo asigno a algo mas corto de escribir
 myBPM.pulse => dur beat;
 
