@@ -13,10 +13,12 @@ Un ejemplo (debes tener [ChucK](http://chuck.cs.princeton.edu/release/) instalad
 
 En un editor de texto puede editar y alterar valores en el archivo playground.ck
 
-Ejemplo: Edita el array de la linea 17
+Ejemplo: Edita los array
 
 ["kk", "sn"] @=> string p1[]; 
 
 por 
 
 ["kk", "sn", "kk"] @=> string p1[]; 
+
+Para silencio usa "ss"
